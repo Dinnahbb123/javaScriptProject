@@ -1,0 +1,76 @@
+
+
+
+
+
+body{
+    background-image:url(images/lion-red-aesthetic-2880x1800-18343.jpg);
+    background-size: cover;
+}
+    
+
+h1{
+
+    text-align: center;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color:lightsalmon;
+   */ border-style:ridge;
+    */border-color: aqua;
+    
+}
+ul{
+    font-family:cursive;
+    font-size:large;
+    
+}
+
+li{
+    color:lightgray;
+}
+
+header{
+    color:maroon;
+    padding: 60px;
+   
+
+
+}
+
+td{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    color:lightgrey;
+    
+}
+
+th{
+    color:lightgrey;
+}
+
+#AboutMe{
+    border-color:darkgoldenrod;
+    border-style:solid;
+    border-width:10px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    background-color:darkblue;
+    
+}
+
+#Interest{
+    border-color:darkgoldenrod;
+    border-style:solid;
+    border-width:10px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    background-color:darkblue;
+
+}
+
+
+
+    

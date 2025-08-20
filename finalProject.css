@@ -1,0 +1,121 @@
+body {
+    background-color: silver;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+ h1 {
+            text-align: center;
+            font-weight:bolder;
+
+        }
+
+        input[type=text], select {
+            width:60%;
+            
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        h2 {
+            margin-top: 70px;
+            margin-bottom: 30px;
+            font-family: cursive;
+        
+        }
+
+        img.rounded-circle {           
+            margin-bottom: 60px;          
+        }
+
+        p.spanish {
+            line-height: 3.5;
+            text-transform: uppercase;
+        }
+
+        p.french {
+            line-height: 3.5;
+            text-transform: uppercase;
+        }
+
+        p.german {
+
+            line-height: 3.5;
+            text-transform: uppercase;
+        }
+
+        p.swahili {
+            line-height: 3.5;
+            text-transform: uppercase;
+        }
+
+        p.mandarin {
+            line-height: 3.5;
+            text-transform: uppercase;
+        }
+
+        p.arabic {
+            line-height: 3.5;
+            text-transform: uppercase;
+        }
+
+        .card-img-top {
+
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 0;
+        
+        }
+
+         .card{
+            max-width: 250px;
+            margin: 50px;  
+        } 
+
+        button[data-language] {
+            border: none;
+            padding: 0;
+            background: none;
+            outline: none;
+        }
+
+        button[data-language]:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        #languageFactBox {
+        font-size: larger;
+        font-weight:300;
+        text-shadow: 2px 2px 5px blue;
+        }
+
+        p {
+            font-family: cursive;
+        }
+
+        fieldset {
+            border:10px solid navy;
+            border-radius: 20px;
+            background-color: beige;
+            margin-bottom: 10px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
+        legend {
+            background:gray;
+            border-radius: 10px;
+            color:white;
+            padding: 12px;
+            
+        }

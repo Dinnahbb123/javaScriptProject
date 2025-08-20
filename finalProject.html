@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href='finalProject.css'>
+
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+
+
+    <title style="margin-top: 140px;">The Ultimate Language Tutor</title>
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-info sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/World.png" height="30" width="30"></a>
+            <button class="navbar-brand" type="button" data-bs-toggle="collapse" data-bs-target="finalProjectNavbar">
+                <span class="navbar-toggler-con"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="finalProjectNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-house fa-lg"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i>About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Find a Teacher</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i>Group Class</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i>Become a Teacher</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                
+
+                <div class="col">            
+                    <h1 style="margin-top: 40px;">The Ultimate Language Tutor</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    
+    <div class='container'>
+    <h2>Welcome to The Ultimate Language Tutor</h2>
+    <p>Maecenas luctus lobortis sem et commodo. Vestibulum viverra ipsum erat, vel laoreet
+         tellus sollicitudin ac. Vivamus eu orci quis massa sodales vestibulum id ac justo. Sed nibh erat, 
+         sollicitudin id lorem tincidunt, tincidunt eleifend risus. Pellentesque eu nisl a lorem auctor tincidunt. 
+         Sed imperdiet condimentum metus quis accumsan. Nulla laoreet feugiat consectetur. 
+         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+         In leo mauris, bibendum non imperdiet vitae, facilisis ac dui. 
+         In quam leo, commodo vitae dui nec, pellentesque rhoncus est. 
+         Etiam dignissim ipsum velit, in mattis sapien auctor in. Nam vitae faucibus enim, non rutrum orci. 
+         Nam quis erat a elit tristique euismod.</p>
+
+    </div>
+
+
+
+<div class="container mt-3">
+    <h2 style="text-align: center;">Explore Languages </h2>
+    <div class="row justify-content-center">
+        <div class="col-4 text-center">
+            <p class="spanish">Spanish</p>
+            <button data-language="spanish"><img src="images/SpanishLanguage.jpg" class="rounded-circle" alt="Spanish Cathedral" width="304" height="236"></button>
+        </div>
+        <div class="col-4 text-center">
+            <p class="french">French</p>
+            <button data-language="french"><img src="images/FrenchLanguage.jpg" class="rounded-circle" alt="Eiffel Tower" width="304" height="236"></button>
+        </div>
+        <div class="col-4 text-center">
+            <p class="german">German</p>
+            <button data-language="german"><img src="images/GermanLanguage.jpg" class="rounded-circle" alt="BrandenBurg Gate" width="304" height="236"></button>
+        </div>
+        <div class="col-4 text-center">
+            <p class="swahili">Swahili</p>
+            <button data-language="swahili"><img src="images/SwahiliLanguage.jpg" class="rounded-circle" alt="Safari Adventure" width="304" height="236"></button>
+        </div>
+        <div class="col-4 text-center">
+            <p class="mandarin">Manderin Chinese</p>
+            <button data-language="mandarin"><img src="images/ChineseLanguage.jpg" class="rounded-circle" alt="Chinese New Year Festival" width="304" height="236"></button>
+        </div>
+        <div class="col-4 text-center">
+            <p class="arabic">Arabic</p>
+            <button data-language="arabic"><img src="images/All_Gizah_Pyramids.jpg" class="rounded-circle" alt="Sahara Desert" width="304" height="236"></button>
+        </div>
+        <div id="languageFactBox"></div>
+</div>
+</div>
+
+<div class='container mt-3'>
+    <h2 style="text-align: center;">Our Tutors</h2>
+    <div class="row justify-content-center">
+        <div class="card">
+                <img class="card-img-top" src="images/beautifulWoman.jpg" alt="A beautiful Woman">
+                <div class="card-body">
+                    <h4 class="card-title">Martha</h4>
+                    <p class="card-text"> My name is Martha. Welcome!</p>
+                    <a href="finalProjectMartha.html" class="btn btn-primary">See Profile</a>
+                </div>
+        </div>
+         <div class="card">
+                <img class="card-img-top" src="images/PassportPhoto.jpg" alt="My passport foto">
+                <div class="card-body">
+                    <h4 class="card-title">Fortune</h4>
+                    <p class="card-text"> My name is Fortune. Welcome!</p>
+                    <a href="finalProjectFortune.html" class="btn btn-primary">See Profile</a>
+                </div>
+        </div>
+         <div class="card">
+                <img class="card-img-top" src="images/AfricanBeauty.jpg" alt="An african woman">
+                <div class="card-body">
+                    <h4 class="card-title">Esther</h4>
+                    <p class="card-text"> My name is Esther. Welcome!</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    <!--USE A FIELDSET HERE..............REFER BACK TO SURVEYFORM EXCERCISE!!!!!!!!!!!-->
+
+
+    <form action="/action_page.php">
+
+
+    <fieldset class="container mt-3">
+        <legend> Tell Us About Yourself </legend>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="What is your first name">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="What is your last name?">
+
+                    <label for="targetlang">Target Language</label>
+                    <select id="targetlang" name="targetlanguage" placeholder="Select your language"> <!--I want to place placeholder here but not showeing-->
+                        <option value="english">English</option>
+                        <option value="european spanish">European Spanish</option>
+                        <option value="latin american spanish">Latin American Spanish</option>
+                        <option value="french">French</option>
+                        <option value="german">German</option>
+                        <option value="swahili">Swahili</option>
+                        <option value="mandarin">Mandarin</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="european portuguese">European Portuguese</option>
+                        <option value="brazilian portuguese">Brazilian Portuguese</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="korean">Korean</option>
+                        <option value="russian">Russian</option>
+                        <option value="italian">Italian</option>
+                        <option value="dutch">Dutch</option>
+                        <option value="haitian creole">Haitian Creole</option>
+                        <option value="thai">Thai</option>
+                    </select>
+
+                    <label for="nativlang">Native Language</label>
+                    <select id="nativlang" name="nativelanguage">
+                        <option value="english">English</option>
+                        <option value="european spanish">European Spanish</option>
+                        <option value="latin american spanish">Latin American Spanish</option>
+                        <option value="french">French</option>
+                        <option value="german">German</option>
+                        <option value="swahili">Swahili</option>
+                        <option value="mandarin">Mandarin</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="european portuguese">European Portuguese</option>
+                        <option value="brazilian portuguese">Brazilian Portuguese</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="korean">Korean</option>
+                        <option value="russian">Russian</option>
+                        <option value="italian">Italian</option>
+                        <option value="dutch">Dutch</option>
+                        <option value="haitian creole">Haitian Creole</option>
+                        <option value="thai">Thai</option>
+                    </select> 
+    </fieldset>
+
+        </form>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-2 offset-1">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sites</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="col-4 col-sm-2 text-center">
+                <h5>Social</h5>
+                <a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="http://facebook.com/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                <a href="http://twitter.com/"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                <a href="http://youtube.com/"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+<script src="finalProject.js"></script>
+</body>
+</html>
