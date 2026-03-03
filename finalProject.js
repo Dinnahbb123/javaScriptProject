@@ -35,4 +35,23 @@ document.querySelectorAll('button[data-language]').forEach(btn => {
     });
 
 });
+const form = document.querySelector('form')
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const fname = event.target.elements["firstname"].value;
+  const lname = event.target.elements["lastname"].value;
+
+  alert(`Thank you,${fname} ${lname} for your submission!`)
+  form.reset();
+});
+
+const formEsther = document.getElementById('estherForm')
+formEsther.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const day = event.target.elements["day"].value;
+  const time = event.target.elements["time"].value
+
+  alert(`You are all set for ${day} @ ${time}! See you then!`)
+  formEsther.reset();
+})
 
