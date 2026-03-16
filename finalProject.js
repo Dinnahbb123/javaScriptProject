@@ -49,9 +49,29 @@ const formEsther = document.getElementById('estherForm')
 formEsther.addEventListener('submit', function(event) {
   event.preventDefault();
   const day = event.target.elements["day"].value;
-  const time = event.target.elements["time"].value
+  const time = event.target.elements["time"].value;
+
+  if(day === "Select a day" || time === "Select a time") {
+    alert("Please select a valid day and time before proceeding");
+    return;
+  }
 
   alert(`You are all set for ${day} @ ${time}! See you then!`)
   formEsther.reset();
+})
+
+const formMartha = document.getElementById('marthaForm')
+formMartha.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const day = event.target.elements["day"].value;
+  const time = event.target.elements["time"].value;
+
+  if(day === "Select a day" || time === "Select a time") {
+    alert("Please select a valid day and time before proceeding");
+    return;
+  } 
+
+  alert(`You are all set for ${day} @ ${time}! See you then!`)
+  formMartha.reset();
 })
 
