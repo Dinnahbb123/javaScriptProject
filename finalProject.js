@@ -1,4 +1,4 @@
-console.log("Language Tutor JS loaded!")
+console.log(document.getElementById(marthaForm))
 
 const languageFacts = {
     french: "French, an internationally significant Romance language, \
@@ -58,7 +58,7 @@ formEsther.addEventListener('submit', function(event) {
 
   alert(`You are all set for ${day} @ ${time}! See you then!`)
   formEsther.reset();
-})
+});
 
 const formMartha = document.getElementById('marthaForm')
 formMartha.addEventListener('submit', function(event) {
@@ -69,9 +69,11 @@ formMartha.addEventListener('submit', function(event) {
   if(day === "Select a day" || time === "Select a time") {
     alert("Please select a valid day and time before proceeding");
     return;
-  } 
+  }
 
   alert(`You are all set for ${day} @ ${time}! See you then!`)
   formMartha.reset();
-})
+});
+
+
 
