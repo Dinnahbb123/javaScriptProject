@@ -35,7 +35,7 @@ document.querySelectorAll('button[data-language]').forEach(btn => {
     });
 
 });
-const form = document.querySelector('form')
+const form = document.querySelector('TellUsAboutYourself')
 form.addEventListener('submit', function(event) {
   event.preventDefault();
   const fname = event.target.elements["firstname"].value;
