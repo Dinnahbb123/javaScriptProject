@@ -35,11 +35,16 @@ document.querySelectorAll('button[data-language]').forEach(btn => {
     });
 
 });
-const form = document.querySelector('TellUsAboutYourself')
-form.addEventListener('submit', function(event) {
+const formMain = document.getElementById('TellUsAboutYourself')
+formMain.addEventListener('submit', function(event) {
   event.preventDefault();
   const fname = event.target.elements["firstname"].value;
   const lname = event.target.elements["lastname"].value;
+
+  if(fname === "What is your first name" || lname === "What is your lastname?") {
+    alert("Please fill in your first and last name before proceeding")
+    return;
+  }
 
   alert(`Thank you,${fname} ${lname} for your submission!`)
   form.reset();
